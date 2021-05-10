@@ -149,6 +149,7 @@ font-size:25px;
 .fragmento{
     height:200px;
     display:flex;
+    background-color:rgb(97, 216, 252);
 }
 .fragmento p{
     margin:auto 20px;
@@ -168,7 +169,7 @@ background-color:rgb(230, 182, 211);
 }
 
 .infoBook h2{
-    font-size:40px;
+    font-size:60px;
 }
 
 .awards{
@@ -214,4 +215,20 @@ background-color:rgb(230, 182, 211);
 
 .subnavbar ul li a:hover{
     background-color: rgb(118, 181, 233);
+}
+
+.compra{
+    font-size:40px;
+    text-align:center;
+}
+
+.compra a{
+    text-decoration:none;
+    color:black;
+}
+
+
+.compra a:hover{
+    color:blue;
+    text-decoration: underline;
 }
